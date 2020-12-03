@@ -16,8 +16,6 @@ def d2asol(data):
     return count
 
 
-
-
 def d2bsol(data):
     count = 0
     for index, value in enumerate(data):
