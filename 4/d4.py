@@ -1,6 +1,10 @@
 import re
-with open("d4.txt","r") as file:
-    data = file.read().replace("\n"," ").split("  ")
+# File Input -----------------
+datafile = open("d4.txt")
+data1 = datafile.read().replace("\n"," ")
+data = data1.split("  ")
+datafile.close()
+# ----------------------------
 
 def d4asol (passports):
     validpassports = 0
