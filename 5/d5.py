@@ -32,3 +32,4 @@ def d5bsol(data):
 
 print(d5asol(data))
 print(d5bsol(data))
+
