@@ -20,8 +20,8 @@ def updateGrid(data):
                 nearFilled = 0
                 # seat coords:
                 # [-1,-1][0,-1][1,-1]
-                # [-1,0 ][0,0] [1,0 ]
-                # [-1,1 ][0,1] [1,1 ]
+                # [-1,0 ][0,0 ][1,0 ]
+                # [-1,1 ][0,1 ][1,1 ]
                 for dy in range(-1, 2):
                     for dx in range(-1, 2):
                         if dy == dx == 0:
