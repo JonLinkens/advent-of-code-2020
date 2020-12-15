@@ -14,4 +14,4 @@ for index, value in enumerate(busnums):
         mod.append(int(value))
         rem.append((-index) %  mod[-1])
 
-print(crt(mod, rem)) # feels cheap but it works 
+print(crt(mod, rem))  
