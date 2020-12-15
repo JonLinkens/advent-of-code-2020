@@ -13,11 +13,10 @@ def calcTurns(bound):
         for i in range(bound):
             if i < len(nums):
                 n = nums[i]
+            elif lastnum not in last:
+                n = 0
             else:
-                if lastnum not in last:
-                    n = 0
-                else:
-                    n = (i-1)-last[lastnum]
+                n = (i-1)-last[lastnum]
             last[lastnum] = i-1
             lastnum = n
         return n
